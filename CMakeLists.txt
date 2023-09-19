@@ -6,10 +6,14 @@ set(CMAKE_CXX_STANDARD 11)
 
 # Find the librealsense2 installed package
 find_package(realsense2 REQUIRED)
+find_package(OpenCV REQUIRED)
 
-# Add the executable
-add_executable(${PROJECT_NAME} main.cpp)
+# Create executable for hello_world
+add_executable(hello_world hello_world.cpp)
+# Link libraries to hello_world
+target_link_libraries(hello_world ${realsense2_LIBRARY} ${OpenCV_LIBS})
 
-# Link librealsense2 to the target
-target_link_libraries(${PROJECT_NAME} ${realsense2_LIBRARY})
-
+# Create executable for capture
+add_executable(capture capture.cpp)
+# Link libraries to capture
+target_link_libraries(capture ${realsense2_LIBRARY} ${OpenCV_LIBS})

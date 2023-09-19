@@ -1,8 +1,14 @@
 [
 {
   "directory": "/home/sim/Prac/rs_cpp/build",
-  "command": "/usr/bin/g++ -DELPP_NO_DEFAULT_LOG_FILE -g -std=gnu++11 -o CMakeFiles/RealSenseExample.dir/main.cpp.o -c /home/sim/Prac/rs_cpp/main.cpp",
-  "file": "/home/sim/Prac/rs_cpp/main.cpp",
-  "output": "CMakeFiles/RealSenseExample.dir/main.cpp.o"
+  "command": "/usr/bin/g++ -DELPP_NO_DEFAULT_LOG_FILE -isystem /usr/include/opencv4 -g -std=gnu++11 -o CMakeFiles/hello_world.dir/hello_world.cpp.o -c /home/sim/Prac/rs_cpp/hello_world.cpp",
+  "file": "/home/sim/Prac/rs_cpp/hello_world.cpp",
+  "output": "CMakeFiles/hello_world.dir/hello_world.cpp.o"
+},
+{
+  "directory": "/home/sim/Prac/rs_cpp/build",
+  "command": "/usr/bin/g++ -DELPP_NO_DEFAULT_LOG_FILE -isystem /usr/include/opencv4 -g -std=gnu++11 -o CMakeFiles/capture.dir/capture.cpp.o -c /home/sim/Prac/rs_cpp/capture.cpp",
+  "file": "/home/sim/Prac/rs_cpp/capture.cpp",
+  "output": "CMakeFiles/capture.dir/capture.cpp.o"
 }
 ]

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "RealSenseExample",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "RealSenseExample::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RealSenseExample-Debug-4db0232378c2a809b111.json",
-					"name" : "RealSenseExample",
+					"id" : "capture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-capture-Debug-b0c942b5dff80ea9edb0.json",
+					"name" : "capture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_world-Debug-617b03b341cdc1966f3a.json",
+					"name" : "hello_world",
 					"projectIndex" : 0
 				}
 			]

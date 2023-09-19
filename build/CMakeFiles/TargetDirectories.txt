@@ -1,3 +1,4 @@
-/home/sim/Prac/rs_cpp/build/CMakeFiles/RealSenseExample.dir
+/home/sim/Prac/rs_cpp/build/CMakeFiles/hello_world.dir
+/home/sim/Prac/rs_cpp/build/CMakeFiles/capture.dir
 /home/sim/Prac/rs_cpp/build/CMakeFiles/edit_cache.dir
 /home/sim/Prac/rs_cpp/build/CMakeFiles/rebuild_cache.dir
