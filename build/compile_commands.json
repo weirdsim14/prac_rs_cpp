@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/sim/Prac/rs_cpp/build",
+  "command": "/usr/bin/g++ -DELPP_NO_DEFAULT_LOG_FILE -g -std=gnu++11 -o CMakeFiles/RealSenseExample.dir/main.cpp.o -c /home/sim/Prac/rs_cpp/main.cpp",
+  "file": "/home/sim/Prac/rs_cpp/main.cpp",
+  "output": "CMakeFiles/RealSenseExample.dir/main.cpp.o"
+}
+]
